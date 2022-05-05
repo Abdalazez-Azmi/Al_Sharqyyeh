@@ -8,6 +8,8 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 #items{
     border-style: double;
     text-align: center  ;
+    font-family:  'Kufam', sans-serif;
+
 }
 
 #shop{
@@ -47,4 +49,16 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
 .w3-display-container img:hover{
     background-color: aqua;
+}
+#txt{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.tit{
+   font-family: 'Reem Kufi', sans-serif;
+}
+
+body{
 }

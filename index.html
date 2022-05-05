@@ -3,7 +3,12 @@
 <head>
 <title>الحارة الشرقية لتجارة وتوزيع المجمدات والمبردات</title>
 <link class="icon" rel="icon" href="images/logo.jpg" type="image/icon type" />
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kufam:wght@500&display=swap" rel="stylesheet">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -23,17 +28,17 @@
   <div class="w3-container w3-display-container w3-padding-16">
     <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
     <h3 class="w3-wide"><b><img style="border-radius: 100%;" src="images/logo.jpg"></b></h3>
-    <b><p style="font-size: 17.5px; text-decoration: underline;">لتجارة وتوزيع المجمدات والمبردات</p></b>
+    <b><p class="tit" style="font-size: 18px;   ">لتجارة وتوزيع المجمدات والمبردات</p></b>
   </div>    
   
-    <b><a  style="font-size: 22px"; href="#" id="items" class="w3-bar-item w3-button">لحوم</a></b>
-    <b><a  style="font-size: 22px"; href="#" id="items" class="w3-bar-item w3-button">دواجن</a></b>
-    <b><a  style="font-size: 22px"; href="#" id="items" class="w3-bar-item w3-button">أسماك</a></b>
-    <b><a  style="font-size: 22px"; href="#" id="items" class="w3-bar-item w3-button">خضار مجمدة</a></b>
-    <b><a  style="font-size: 22px"; href="#" id="items" class="w3-bar-item w3-button">فواكه مجمدة</a></b>
-    <b><a style="font-size: 22px"; href="#" id="items" class="w3-bar-item w3-button">صُوصّات</a></b>
-    <b><a style="font-size: 22px"; href="#" id="items" class="w3-bar-item w3-button">مبردات</a></b>
-    <b><a style="font-size: 22px"; href="#" id="items" class="w3-bar-item w3-button">بهارات مطاعم</a></b>
+    <b><a onclick="move()"  style="font-size: 22px"; href="#products" id="items" class="w3-bar-item w3-button">لحوم</a></b>
+    <b><a onclick="move()"  style="font-size: 22px";  id="items" class="w3-bar-item w3-button">دواجن</a></b>
+    <b><a onclick="move()"  style="font-size: 22px";  id="items" class="w3-bar-item w3-button">أسماك</a></b>
+    <b><a onclick="move()"  style="font-size: 22px";  id="items" class="w3-bar-item w3-button">خضار مجمدة</a></b>
+    <b><a onclick="move()"  style="font-size: 22px";  id="items" class="w3-bar-item w3-button">فواكه مجمدة</a></b>
+    <b><a onclick="move()" style="font-size: 22px"; id="items" class="w3-bar-item w3-button">صُوصّات</a></b>
+    <b><a onclick="move()" style="font-size: 22px";  id="items" class="w3-bar-item w3-button">مبردات</a></b>
+    <b><a onclick="move()" style="font-size: 22px";  id="items" class="w3-bar-item w3-button">بهارات مطاعم</a></b>
    
   </div>
   <br>
@@ -72,7 +77,7 @@
   </div>
   <br>
   <br>
-  <h4 id="products">اصناف اللحوم</h4>
+  <h4  id="products">اصناف اللحوم</h4>
 
   <!-- Product grid -->
   <div class="w3-row w3-grayscale">
@@ -80,11 +85,11 @@
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+        <p id="txt">Ripped Skinny Jeans<br></p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+        <p id="txt">Mega Ripped Jeans<br></p>
       </div>
     </div>
 
@@ -95,18 +100,18 @@
           <div class="w3-display-middle w3-display-hover">
           </div>
         </div>
-        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+        <p id="txt">Mega Ripped Jeans<br></p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+        <p id="txt">Washed Skinny Jeans<br></p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg"style="width:100%">
-        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+        <p id="txt">Washed Skinny Jeans<br></p>
       </div>
       <div class="w3-container">
         <div class="w3-display-container">
@@ -114,18 +119,18 @@
           <div class="w3-display-middle w3-display-hover">
           </div>
         </div>
-        <p>Vintage Skinny Jeans<br><b class="w3-text-red">$14.99</b></p>
+        <p id="txt">Vintage Skinny Jeans<br></p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Vintage Skinny Jeans<br><b>$14.99</b></p>
+        <p id="txt">Vintage Skinny Jeans<br></p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+        <p id="txt">Ripped Skinny Jeans<br></p>
       </div>
     </div>
   </div>
@@ -137,11 +142,11 @@
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+        <p id="txt">Ripped Skinny Jeans</p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+        <p id="txt">Mega Ripped Jeans</p>
       </div>
     </div>
 
@@ -152,18 +157,18 @@
           <div class="w3-display-middle w3-display-hover">
           </div>
         </div>
-        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+        <p id="txt">Mega Ripped Jeans<br></p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+        <p id="txt">Washed Skinny Jeans</p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+        <p id="txt">Washed Skinny Jeans</p>
       </div>
       <div class="w3-container">
         <div class="w3-display-container">
@@ -173,7 +178,7 @@
         </div>
       <img src="/images/zinger.jpg" style="width:100%">
 
-        <p>Vintage Skinny Jeans<br><b class="w3-text-red">$14.99</b></p>
+        <p id="txt">Vintage Skinny Jeans</p>
       </div>
 
     </div>
@@ -181,11 +186,11 @@
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Vintage Skinny Jeans<br><b>$14.99</b></p>
+        <p id="txt">Vintage Skinny Jeans</p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+        <p id="txt">Ripped Skinny Jeans</p>
       </div>
     </div>
   </div>  
@@ -197,11 +202,11 @@
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+        <p id="txt">Ripped Skinny Jeans</p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+        <p id="txt">Mega Ripped Jeans</p>
       </div>
     </div>
 
@@ -212,18 +217,18 @@
           <div class="w3-display-middle w3-display-hover">
           </div>
         </div>
-        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+        <p id="txt">Mega Ripped Jeans</p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+        <p  id="txt"  >Washed Skinny Jeans</p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+        <p id="txt">Washed Skinny Jeans</p>
       </div>
       <div class="w3-container">
         <div class="w3-display-container">
@@ -231,18 +236,18 @@
           <div class="w3-display-middle w3-display-hover">
           </div>
         </div>
-        <p>Vintage Skinny Jeans<br><b class="w3-text-red">$14.99</b></p>
+        <p id="txt">Vintage Skinny Jeans</p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Vintage Skinny Jeans<br><b>$14.99</b></p>
+        <p id="txt">Vintage Skinny Jeans</p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+        <p id="txt">Ripped Skinny Jeans</p>
       </div>
     </div>
   </div>
@@ -254,11 +259,11 @@
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+        <p  id="txt">Ripped Skinny Jeans</p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+        <p id="txt">Mega Ripped Jeans</p>
       </div>
     </div>
 
@@ -269,18 +274,18 @@
           <div class="w3-display-middle w3-display-hover">
           </div>
         </div>
-        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+        <p id="txt">Mega Ripped Jeans</p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+        <p id="txt">Washed Skinny Jeans</p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+        <p id="txt">Washed Skinny Jeans</p>
       </div>
       <div class="w3-container">
         <div class="w3-display-container">
@@ -288,22 +293,22 @@
           <div class="w3-display-middle w3-display-hover">
           </div>
         </div>
-        <p>Vintage Skinny Jeans<br><b class="w3-text-red">$14.99</b></p>
+        <p id="txt">Vintage Skinny Jeans</p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Vintage Skinny Jeans<br><b>$14.99</b></p>
+        <p id="txt">Vintage Skinny Jeans</p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+        <p id="txt">Ripped Skinny Jeans</p>
       </div>
     </div>
   </div>
-  <h4>اصناف الفواكه المجمدة</h4>
+  <h4 id="products">اصناف الفواكه المجمدة</h4>
 
   <!-- Product grid -->
   <div class="w3-row w3-grayscale">
@@ -311,11 +316,11 @@
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+        <p id="txt">Ripped Skinny Jeans</p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+        <p id="txt">Mega Ripped Jeans</p>
       </div>
     </div>
 
@@ -326,18 +331,18 @@
           <div class="w3-display-middle w3-display-hover">
           </div>
         </div>
-        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+        <p id="txt">Mega Ripped Jeans</p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+        <p id="txt">Washed Skinny Jeans</p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+        <p  id="txt">Washed Skinny Jeans</p>
       </div>
       <div class="w3-container">
         <div class="w3-display-container">
@@ -345,18 +350,18 @@
           <div class="w3-display-middle w3-display-hover">
           </div>
         </div>
-        <p>Vintage Skinny Jeans<br><b class="w3-text-red">$14.99</b></p>
+        <p id="txt">Vintage Skinny Jeans</p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Vintage Skinny Jeans<br><b>$14.99</b></p>
+        <p id="txt">Vintage Skinny Jeans</p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+        <p id="txt">Ripped Skinny Jeans</p>
       </div>
     </div>
   </div>
@@ -369,11 +374,11 @@
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+        <p id="txt">Ripped Skinny Jeans</p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+        <p id="txt">Mega Ripped Jeans</p>
       </div>
     </div>
 
@@ -384,18 +389,18 @@
           <div class="w3-display-middle w3-display-hover">
           </div>
         </div>
-        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+        <p id="txt">Mega Ripped Jeans</p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+        <p id="txt">Washed Skinny Jeans</p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+        <p id="txt">Washed Skinny Jeans</p>
       </div>
       <div class="w3-container">
         <div class="w3-display-container">
@@ -403,18 +408,18 @@
           <div class="w3-display-middle w3-display-hover">
           </div>
         </div>
-        <p>Vintage Skinny Jeans<br><b class="w3-text-red">$14.99</b></p>
+        <p id="txt">Vintage Skinny Jeans</p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Vintage Skinny Jeans<br><b>$14.99</b></p>
+        <p id="txt">Vintage Skinny Jeans</p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg"style="width:100%">
-        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+        <p id="txt">Ripped Skinny Jeans</p>
       </div>
     </div>
   </div>
@@ -427,11 +432,11 @@
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+        <p id="txt">Ripped Skinny Jeans</p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+        <p id="txt">Mega Ripped Jeans</p>
       </div>
     </div>
 
@@ -442,18 +447,18 @@
           <div class="w3-display-middle w3-display-hover">
           </div>
         </div>
-        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+        <p id="txt">Mega Ripped Jeans</p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+        <p id="txt">Washed Skinny Jeans</p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+        <p id="txt">Washed Skinny Jeans</p>
       </div>
       <div class="w3-container">
         <div class="w3-display-container">
@@ -461,18 +466,18 @@
           <div class="w3-display-middle w3-display-hover">
           </div>
         </div>
-        <p>Vintage Skinny Jeans<br><b class="w3-text-red">$14.99</b></p>
+        <p  id="txt" > Vintage Skinny Jeans</p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Vintage Skinny Jeans<br><b>$14.99</b></p>
+        <p  id="txt">Vintage Skinny Jeans</p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+        <p  id="txt">Ripped Skinny Jeans</p>
       </div>
     </div>
   </div>
@@ -485,11 +490,11 @@
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+        <p  id="txt">Ripped Skinny Jeans</p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+        <p  id="txt">Mega Ripped Jeans</p>
       </div>
     </div>
 
@@ -500,18 +505,18 @@
           <div class="w3-display-middle w3-display-hover">
           </div>
         </div>
-        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+        <p  id="txt">Mega Ripped Jeans</p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+        <p  id="txt">Washed Skinny Jeans</p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+        <p  id="txt">Washed Skinny Jeans</p>
       </div>
       <div class="w3-container">
         <div class="w3-display-container">
@@ -519,18 +524,18 @@
            <div class="w3-display-middle w3-display-hover">
           </div>
         </div>
-        <p>Vintage Skinny Jeans<br><b class="w3-text-red">$14.99</b></p>
+        <p  id="txt">Vintage Skinny Jeans</p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-        <p>Vintage Skinny Jeans<br><b>$14.99</b></p>
+        <p  id="txt">Vintage Skinny Jeans</p>
       </div>
       <div class="w3-container">
         <img src="/images/zinger.jpg" style="width:100%">
-          <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+          <p  id="txt"  >Ripped Skinny Jeans</p>
       </div>
     </div>
   </div>
