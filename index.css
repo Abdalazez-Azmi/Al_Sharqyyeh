@@ -28,3 +28,23 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 #ul{
     text-decoration: underline;
 }
+
+#copyr{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#products{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+
+.w3-display-container img:hover{
+    background-color: aqua;
+}
