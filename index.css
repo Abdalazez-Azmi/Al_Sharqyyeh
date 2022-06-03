@@ -37,13 +37,14 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 }
 
 
-#products{
+#products,#dawjen,#fish,#vigitables,#fruits,#soas,#colden,#bharat{
     text-align: center;
     background-color: black;
     color: white;
     font-size: 28px;
     font-weight: bold;
 }
+
 
 
 
@@ -60,5 +61,10 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
    font-family: 'Reem Kufi', sans-serif;
 }
 
-body{
+img{
+    opacity: 1;
+}
+
+#textt{
+font-family: 'Courier New', Courier, monospace;
 }

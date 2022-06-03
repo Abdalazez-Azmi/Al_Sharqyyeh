@@ -7,7 +7,18 @@ function myAccFunc() {
       x.className = x.className.replace(" w3-show", "");
     }
   }
-  
+let items = document.getElementById("items")
+
+  function move(){
+     
+    }
+   
+    
+
+
+
+
+
   // Click on the "Jeans" link on page load to open the accordion for demo purposes
   document.getElementById("myBtn").click();
   
@@ -25,4 +36,4 @@ function myAccFunc() {
 
 
 
-  
+ 

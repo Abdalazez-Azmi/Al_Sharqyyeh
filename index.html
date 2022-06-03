@@ -32,13 +32,13 @@
   </div>    
   
     <b><a onclick="move()"  style="font-size: 22px"; href="#products" id="items" class="w3-bar-item w3-button">لحوم</a></b>
-    <b><a onclick="move()"  style="font-size: 22px";  id="items" class="w3-bar-item w3-button">دواجن</a></b>
-    <b><a onclick="move()"  style="font-size: 22px";  id="items" class="w3-bar-item w3-button">أسماك</a></b>
-    <b><a onclick="move()"  style="font-size: 22px";  id="items" class="w3-bar-item w3-button">خضار مجمدة</a></b>
-    <b><a onclick="move()"  style="font-size: 22px";  id="items" class="w3-bar-item w3-button">فواكه مجمدة</a></b>
-    <b><a onclick="move()" style="font-size: 22px"; id="items" class="w3-bar-item w3-button">صُوصّات</a></b>
-    <b><a onclick="move()" style="font-size: 22px";  id="items" class="w3-bar-item w3-button">مبردات</a></b>
-    <b><a onclick="move()" style="font-size: 22px";  id="items" class="w3-bar-item w3-button">بهارات مطاعم</a></b>
+    <b><a onclick="move()"  style="font-size: 22px"; href="#dawjen" id="items" class="w3-bar-item w3-button">دواجن</a></b>
+    <b><a onclick="move()"  style="font-size: 22px"; href="#fish"  id="items" class="w3-bar-item w3-button">أسماك</a></b>
+    <b><a onclick="move()"  style="font-size: 22px"; href="#vigitables" id="items" class="w3-bar-item w3-button">خضار مجمدة</a></b>
+    <b><a onclick="move()"  style="font-size: 22px"; href="#fruits"  id="items" class="w3-bar-item w3-button">فواكه مجمدة</a></b>
+    <b><a onclick="move()" style="font-size: 22px"; href="#soas " id="items" class="w3-bar-item w3-button">صُوصّات</a></b>
+    <b><a onclick="move()" style="font-size: 22px"; href="#colden"  id="items" class="w3-bar-item w3-button">مبردات</a></b>
+    <b><a onclick="move()" style="font-size: 22px"; href="#bharat" id="items" class="w3-bar-item w3-button">بهارات مطاعم</a></b>
    
   </div>
   <br>
@@ -48,7 +48,8 @@
 
 <!-- Top menu on small screens -->
 <header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
-   <b> الرئيسية </b>
+<img style="border-radius: 100%;width: 50px;" src="images/logo.jpg">
+    <b id="textt"> الرئيسية </b>
 
   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
 </header>
@@ -134,14 +135,14 @@
       </div>
     </div>
   </div>
-  <h4 id="products">اصناف الدواجن</h4>
+  <h4 id="dawjen" id="products">اصناف الدواجن</h4>
 
   <!-- Product grid -->
   <div class="w3-row w3-grayscale">
     
     <div class="w3-col l3 s6">
       <div class="w3-container">
-        <img src="/images/zinger.jpg" style="width:100%">
+        <img src="/images/strowberry.jpg" style="width:100% ">
         <p id="txt">Ripped Skinny Jeans</p>
       </div>
       <div class="w3-container">
@@ -194,7 +195,7 @@
       </div>
     </div>
   </div>  
-  <h4 id="products">اصناف الاسماك</h4>
+  <h4 href="#fish" id="fish" id="products">اصناف الاسماك</h4>
 
   <!-- Product grid -->
   <div class="w3-row w3-grayscale">
@@ -251,7 +252,7 @@
       </div>
     </div>
   </div>
-  <h4 id="products">اصناف الخضار المجمدة</h4>
+  <h4 href="#vigitables" id="vigitables" id="products">اصناف الخضار المجمدة</h4>
 
   <!-- Product grid -->
   <div class="w3-row w3-grayscale">
@@ -308,7 +309,7 @@
       </div>
     </div>
   </div>
-  <h4 id="products">اصناف الفواكه المجمدة</h4>
+  <h4 href="#fruits" id="fruits" id="products">اصناف الفواكه المجمدة</h4>
 
   <!-- Product grid -->
   <div class="w3-row w3-grayscale">
@@ -366,7 +367,7 @@
     </div>
   </div>
   
-  <h4 id="products">اصناف الصُوصّات</h4>
+  <h4 href="#soas" id="soas" id="products">اصناف الصُوصّات</h4>
 
   <!-- Product grid -->
   <div class="w3-row w3-grayscale">
@@ -424,7 +425,7 @@
     </div>
   </div>
 
-  <h4 id="products">اصناف المبردات</h4>
+  <h4 href="#colden" id="colden" id="products">اصناف المبردات</h4>
 
   <!-- Product grid -->
   <div class="w3-row w3-grayscale">
@@ -482,7 +483,7 @@
     </div>
   </div>
 
-  <h4 id="products">اصناف بهارات المطاعم </h4>
+  <h4 href="#bharat" id="bharat" id="products">اصناف بهارات المطاعم </h4>
 
   <!-- Product grid -->
   <div class="w3-row w3-grayscale">
@@ -549,6 +550,16 @@
   <!-- Footer -->
   <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
     <div class="w3-row-padding">
+      <p id="about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi ea veniam vero est inventore quae perspiciatis deserunt nesciunt aut, suscipit minus quis nemo impedit cupiditate facere, hic eos. Nisi, recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti doloribus harum sequi quae ullam possimus! Sequi reprehenderit impedit totam, vel incidunt, praesentium ipsam veniam officia, corrupti provident doloribus non Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, natus distinctio ratione, incidunt deserunt odit inventore commodi, eligendi quod nam facere. Aspernatur sequi dolore cupiditate autem velit minus corporis rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, reprehenderit, accusamus asperiores sit incidunt mollitia voluptatibus ea libero labore rerum nesciunt velit ullam, expedita consequatur ipsa inventore recusandae esse voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, aperiam distinctio aliquid nemo consequuntur provident numquam deleniti perspiciatis ipsum culpa adipisci totam asperiores, corporis facere odit nisi error harum eveniet! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quaerat sit aut cum quas aliquam voluptatem repellendus error quisquam repudiandae, dolorum, consequuntur nulla ratione animi debitis modi omnis corporis nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim accusantium architecto laboriosam cum harum, consequatur non amet aliquid perspiciatis, iste dolore possimus ad ducimus facilis, totam quam dicta in magni? Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, repellat ipsam eaque cum minus sequi consequatur quo, laudantium natus aliquid veniam. Nulla totam aspernatur quas corporis, molestiae error dolorum perferendis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum molestiae aperiam qui ipsa beatae impedit libero repudiandae, reprehenderit, nostrum repellendus magnam deleniti laborum sequi aspernatur, neque animi alias voluptate excepturi? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati numquam at debitis dolore voluptatibus quidem culpa enim a odit dolorem minus sequi fugit corrupti aperiam vero sapiente, quisquam nemo dicta.
+        
+      </p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
       <div class="w3-col s4">
         <h4 id="ul">اتصل بنا</h4>
         <h6><a type="number" href="tel:0792902880">0792902880</a></h6>
@@ -560,14 +571,16 @@
       </div>
 
       <div class="w3-col s4">
-        <h4 id="ul">من نحن؟</h4>
-        <p><a href="#">About us</a></p>
+        <h4 id="ul">من نحن</h4>
+
+        <p><a style="font-size: 15px;" href="#about">نبذة عن شركتنا</a></p>
      
       </div>
 
       <div class="w3-col s4 w3-justify">
         <h4 id="ul">المتجر</h4>
-        <b class="fa fa-fw fa-map-marker"><a href="https://goo.gl/maps/G8fdj7w3iFiFymxX7">شارع احمد صالح الحجاج</a></b>
+        <b class="fa fa-fw fa-map-marker"></b>
+        <a style="font-size: 15px;" href="https://goo.gl/maps/G8fdj7w3iFiFymxX7">شارع احمد صالح الحجاج</a>
         <h6><a href="tel:0792902880">0792902880</a></h6>
         <h6><a href="tel:0792902880">0792902880</a></h6>
         <br>
